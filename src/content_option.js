@@ -4,6 +4,7 @@ import ProjectImage2 from './assets/images/Project2.jpg';
 import ProjectImage3 from './assets/images/Project3.jpg';
 import ProjectImage4 from './assets/images/Project4.png';
 import ProjectImage5 from './assets/images/Project5.png';
+import ProjectImage6 from './assets/images/Project6.png';
 
 const logotext = "Kikiii";
 const meta = {
@@ -88,12 +89,12 @@ const dataportfolio = [{
     },
     {
         img: ProjectImage2,
-        description: "A portfolio website built using ReactJS,JavaScript and Tailwind Framework",
+        description: "A portfolio website built using ReactJS, and JavaScript, optimized for mobile resolution.",
         link: "https://undangan-digital-two.vercel.app/",
     },
     {
         img: ProjectImage3,
-        description: "A portfolio website built using ReactJS, and JavaScript, optimized for mobile resolution.",
+        description: "A portfolio website built using ReactJS,JavaScript and Tailwind Framework",
         link: "https://portfolioriski.vercel.app/",
     },
     {
@@ -105,6 +106,11 @@ const dataportfolio = [{
         img: ProjectImage5,
         description: "Collection API using .NET version 0.6 that has GET, UPDATE, DELETE methods",
         link: "https://github.com/riskisembiring/SIASmaSmartSchoolRESTApi",
+    },
+    {
+        img: ProjectImage6,
+        description: "Designing a system for the Gelugur Darat health center using a desktop-based approach, utilizing Visual Studio Code for creating the interface and employing the SDLC (Software Development Life Cycle) methodology.",
+        link: "https://docs.google.com/presentation/d/1my2Eo7f0vAbiqraITLMzReOtr_ic36OS/edit?usp=drive_link&ouid=107437479646062485543&rtpof=true&sd=true",
     },
 ];
 
@@ -121,7 +127,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/riskisembiring",
-    Facebook: "https://www.facebook.com/riski.s.sembiring",
+    facebook: "https://www.facebook.com/riski.s.sembiring",
     linkedin: "https://www.linkedin.com/in/riski-sahputra-sembiring-51b7b2223/",
     twitter: "https://twitter.comhttps://x.com/IkiPutr90290894",
 };
