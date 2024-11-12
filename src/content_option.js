@@ -1,144 +1,117 @@
-const logotext = "JOHN";
+import portfolioImage from './assets/images/portfolio.png';
+import ProjectImage1 from './assets/images/Project1.png';
+import ProjectImage2 from './assets/images/Project2.jpg';
+import ProjectImage3 from './assets/images/Project3.jpg';
+import ProjectImage4 from './assets/images/Project4.png';
+import ProjectImage5 from './assets/images/Project5.png';
+
+const logotext = "Kikiii";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Riski Sembiring",
+    description: "I’m Riski Sahputra Sembiring Software Developer _ Front End Developer _ Web App Developer, currently working in Indonesia",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Riski Sahputra Sembiring",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Software Developer",
+        second: "Front End Developer",
+        third: "Web App Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a FrontEnd Developer with experience in building responsive and innovative digital solutions. Using cutting-edge technologies like React, Angular, and SQL, I focus on creating efficient and user-friendly applications with high quality and performance. With a strong background in information systems, I am committed to continuously developing my technical skills and contributing my best to every project I work on.",
+    your_img_url: portfolioImage,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about my self",
+    aboutme: "Hello! I'm Riski. As a graduate with a Bachelor's degree in Information Systems, I bring a solid foundation in IT principles and a proven track record as a Software Developer at Bank OCBC. My expertise lies in utilizing cutting-edge technologies such as ReactJS, AngularJS, and SQL Database to deliver robust software solutions. Currently, I am on the lookout for new opportunities that will allow me to leverage my technical skills and continue my career in the IT field.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Software Development",
+        where: "PT. Bank OCBC nisp",
+        date: "2023 - 2024",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
+        name: "Javascript",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "AngularJS",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "ReactJS",
+        value: 85,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "React Native",
+        value: 70,
+    },
+    {
+        name: "C#",
+        value: 75,
+    },
+    {
+        name: ".NET",
+        value: 70,
+    },
+    {
+        name: "NextJS",
+        value: 70,
+    },
+    {
+        name: "PHP",
+        value: 70,
+    },
+    {
+        name: "SQLServer",
+        value: 80,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web App",
+        description: "Building responsive and interactive web applications that are easily accessible across various devices. With modern design and robust functionality, this web application ensures an optimal user experience on every screen.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile App",
+        description: "Providing mobile applications available for download on both iOS and Android devices. Designed to offer a seamless and user-friendly experience, this app leverages the latest technologies to deliver top performance on mobile devices.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ProjectImage1,
+        description: "A church website with dummy data built using the ReactJS framework and the TypeScript programming language.",
+        link: "https://website-gsri-2024.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ProjectImage2,
+        description: "A portfolio website built using ReactJS,JavaScript and Tailwind Framework",
+        link: "https://undangan-digital-two.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ProjectImage3,
+        description: "A portfolio website built using ReactJS, and JavaScript, optimized for mobile resolution.",
+        link: "https://portfolioriski.vercel.app/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ProjectImage4,
+        description: "A program to calculate a person's Body Mass Index (BMI), using JavaScript HTML and CSS.",
+        link: "https://github.com/revou-fundamental-course/5-aug-24-riskisembiring",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: ProjectImage5,
+        description: "Collection API using .NET version 0.6 that has GET, UPDATE, DELETE methods",
+        link: "https://github.com/riskisembiring/SIASmaSmartSchoolRESTApi",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "ikiputra876@gmail.com",
+    YOUR_FONE: "(+62)852-7010-6010",
+    description: "If you have any questions, want to discuss, or are interested in collaborating, please feel free to reach out via email or phone below. I will be happy to respond to your message as soon as possible.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +120,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/riskisembiring",
+    Facebook: "https://www.facebook.com/riski.s.sembiring",
+    linkedin: "https://www.linkedin.com/in/riski-sahputra-sembiring-51b7b2223/",
+    twitter: "https://twitter.comhttps://x.com/IkiPutr90290894",
 };
 export {
     meta,
